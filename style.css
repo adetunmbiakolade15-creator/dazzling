@@ -97,6 +97,9 @@ body{
     /* background-color: red; */
     overflow: hidden;
 }
+.box1img img{
+    min-width: 100%;
+}
 .box1:hover {
     transform: translatey(-10px);
     transition: transform 0.3s ease-out;
@@ -104,7 +107,6 @@ body{
 .boxandname{
     height: 450px;
     width: 23%;
-   
     text-align: center;
     background-color:rgba(218, 165, 32, 0.153);
     border-radius: 10px;
