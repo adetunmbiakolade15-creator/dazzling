@@ -183,9 +183,7 @@ margin-top: 10px;
     background-color: white;
     
 }
-.footercircleimg{
-    
-}
+
 .AllFcircle{
     display: flex;
     align-items: center;
@@ -230,6 +228,9 @@ margin-top: 10px;
         font-size: 30px;
     }
     .boxandname{
+        min-width: 100%;
+    }
+    .box1{
         min-width: 100%;
     }
     .footerhr{
