@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #200B0D;
+}
+.navbox{
+    height: 70px;
+    width: 80%;
+    background-color: black;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 5px 20px rgba(255, 0, 0, 0.6),
+    0 0 0 rgba(255, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: sticky;
+    top: 0.1px;
+    z-index: 1;
+}
+.loGO{
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+
+.contactbox{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 35px;
+    border: 2px solid white;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgandtxt{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.imgandtxt a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.heropics{
+    height: 500px;
+    width: 100%;
+    background-image: url("images/thanksgiving-day-delicious-meal-assortment.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.537);
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herotxt{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+.herotxta{
+    color: #200B0D;
+}
+.heotxt2{
+    font-size: 20px;
+}
+.sec3txt{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 70px;
+}
+.box1{
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.box1:hover {
+    transform: translatey(-10px);
+    transition: transform 0.3s ease-out;
+}
+.boxandname{
+    height: 450px;
+    width: 23%;
+   
+    text-align: center;
+    background-color:rgba(218, 165, 32, 0.153);
+    border-radius: 10px;
+
+}
+.boxname{
+display:flex ;
+justify-content: center;
+align-items: center;  
+font-size: 25px;
+font-weight: bold;
+color: antiquewhite;
+margin-top: 10px;
+}
+.Allboximages{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 90px;
+    overflow-x: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* flex-wrap: wrap; */
+}
+.AllboximagesWRAP{
+    overflow-x: scroll;
+}
+.Allboximages::-webkit-scrollbar{
+    display: none;
+    }
+    .Ftxt{
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+        padding-left: 60px; 
+        padding-top: 20px;
+        letter-spacing: -10px;
+        filter: drop-shadow(1px 10px 10px red)
+    }
+
+.footer{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    margin-top: 90px;
+}
+.footerhr{
+    height: 2px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px; 
+    padding-top: 50px;
+}
+.footerlink a{
+    text-decoration: none;
+    color: white;
+}
+.footerlink{
+    padding-left: 60px;
+    margin-top: 60px;
+}
+.footertxt3{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.footercircle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.footercircleimg{
+    
+}
+.AllFcircle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 60px;
+
+}
+.WTAimgML{
+    display: none;
+}
+.Ftxt a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    .contactbox a{
+        display: none;
+    }
+    .navbox .contactbox{
+        display: none;
+    }
+    .WTAimgML{
+        display: flex;
+        margin-right: 30px;
+    }
+    .herotxt{
+        font-size: 45px;
+    }
+    .sec3txt{
+        font-size: 30px;
+    }
+    .boxandname{
+        min-width: 100%;
+    }
+    .footerhr{
+        padding-top: 20px;
+    }
+    .Ftxt{
+        padding-top: 30px;
+    }
+    .footer{
+        height: 400px;
+    }
+    .navbox{
+        width: 95%;
+        height: 60px;
+    }
+    .loGO{
+        padding-left: 20px;
+        margin: 0;
+        padding-top: 17px;
+        font-size: 35px;
+
+    }
+    .footercircle{
+        height: 25px;
+        width: 25px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+    .footercircleimg img{
+        width: 25px;
+    }
+    .AllboximagesWRAP{
+        flex-wrap: wrap;
+    }
+}
