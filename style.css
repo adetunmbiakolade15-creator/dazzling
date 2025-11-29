@@ -8,6 +8,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: #200B0D;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbox{
     height: 70px;
