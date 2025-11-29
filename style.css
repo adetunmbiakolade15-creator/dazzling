@@ -96,6 +96,7 @@ body{
     width: 100%;
     /* background-color: red; */
     overflow: hidden;
+    
 }
 .box1img img{
     min-width: 100%;
@@ -110,6 +111,7 @@ body{
     text-align: center;
     background-color:rgba(218, 165, 32, 0.153);
     border-radius: 10px;
+    /* animation: scroll 10s linear infinite; */
 
 }
 .boxname{
@@ -130,7 +132,13 @@ margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     /* flex-wrap: wrap; */
+   
 }
+/* @keyframes scroll {
+    to{
+        translate: calc(-5 * 5rem);
+    }
+} */
 .AllboximagesWRAP{
     overflow-x: scroll;
 }
@@ -146,6 +154,48 @@ margin-top: 10px;
         letter-spacing: -10px;
         filter: drop-shadow(1px 10px 10px red)
     }
+
+
+
+    .Tbox1{
+        height: 500px;
+        width: 60%;
+        background-color: #200B0D;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    .Tbox2{
+        height: 500px;
+        width: 40%;
+        background-color: #200B0D;
+        overflow: hidden;
+    }
+    .testimony{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .Ttxt1{
+        font-size: 20px;
+        color: white;
+    }
+    .Ttxt2{
+        font-size: 55px;
+        color: white;
+        padding-top: 20px;
+    }
+    .Ttxt3{
+        color: aliceblue;
+        font-size: 19px;
+        padding-top: 40px;
+    }
+    .comt{
+        font-size: 25px;
+        color: white;
+        padding-top: 30px;
+        font-weight: 600;
+    }
+
 
 .footer{
     height: 450px;
@@ -268,5 +318,34 @@ margin-top: 10px;
     }
     .AllboximagesWRAP{
         flex-wrap: wrap;
+    }
+    .Tbox1{
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        flex-direction: column;
+    }
+    .Tbox2{
+        min-width: 100%;
+    }
+    .Ttxt1{
+        text-align: center;
+    }
+    .Ttxt2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .Ttxt3{
+        /* text-align: center; */
+    }
+    .testimony{
+        flex-wrap: wrap;
+    }
+    .Tboximg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
