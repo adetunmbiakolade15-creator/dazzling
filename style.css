@@ -21,15 +21,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+    position: fixed;
+    top: 1px;
+    z-index: 1;
 }
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    position: sticky;
-    top: 0.1px;
-    z-index: 1;
+    /* margin-top: 30px; */
+    
+}
+.gods {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
 }
 .loGO{
     padding-bottom: 20px;
@@ -61,29 +69,35 @@ body{
     font-weight: bold;
 }
 .heropics{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-image: url("images/thanksgiving-day-delicious-meal-assortment.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.537);
-    margin-top: 90px;
+    /* margin-top: -30px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
 }
 .herotxt{
     text-align: center;
     font-size: 70px;
     font-weight: 900;
     color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
 }
 .herotxta{
     color: #200B0D;
 }
 .heotxt2{
-    font-size: 20px;
+    font-size: 30px;
 }
 .sec3txt{
     color: white;
@@ -276,6 +290,9 @@ margin-top: 10px;
     }
     .herotxt{
         font-size: 45px;
+    }
+    .heotxt2{
+        font-size: 20px;
     }
     .sec3txt{
         font-size: 30px;
